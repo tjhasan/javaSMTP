@@ -9,6 +9,8 @@ Add the following dependency to your pom.xml file
 </dependency>
 ```
 
+After you have done that, the following code snippet will allow you to setup the SMTP server.
+
 ```
 import javax.mail.*;
 import javax.mail.internet.InternetAddress;
