@@ -1,5 +1,14 @@
 This is the code to setup a SMTP Server in Java using TLS Authentication
 
+Add the following dependency to your pom.xml file
+```
+<dependency>
+    <groupId>com.sun.mail</groupId>
+    <artifactId>javax.mail</artifactId>
+    <version>1.5.5</version>
+</dependency>
+```
+
 ```
 import javax.mail.*;
 import javax.mail.internet.InternetAddress;
